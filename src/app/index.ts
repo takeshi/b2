@@ -3,8 +3,7 @@
 'use strict';
 
 module b2 {
-  angular.module('b2', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ngMaterial'])
-    .controller('MainCtrl', MainCtrl)
-    .controller('NavbarCtrl', NavbarCtrl)
+  angular.module('b2',
+   ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ngMaterial','ngNewRouter'])
     ;
 }

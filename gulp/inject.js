@@ -17,8 +17,8 @@ gulp.task('inject', ['styles', 'scripts'], function () {
 
   var injectScripts = gulp.src([
     '{' + paths.src + ',' + paths.tmp + '/serve}/{app,components}/**/*.js',
-    './router/dist/router.es5.js',
-    './router/node_modules/route-recognizer/dist/route-recognizer.js',
+    '{..,.}/router/dist/router.es5.js',
+    '{..,.}/router/node_modules/route-recognizer/dist/route-recognizer.js',
     '!' + paths.src + '/{app,components}/**/*.spec.js',
     '!' + paths.src + '/{app,components}/**/*.mock.js'
   ]).pipe($.angularFilesort());

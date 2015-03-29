@@ -16,7 +16,7 @@
     ],
     "files": [
         "./src/app/index.ts",
-        "./src/app/main/main.controller.ts",
+        "./src/app/main/app.controller.ts",
         "./src/components/navbar/navbar.controller.ts"
     ],
     "compileOnSave": false,

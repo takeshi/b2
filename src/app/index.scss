@@ -4,6 +4,10 @@ html {
   font-family: 'Roboto Slab', serif;
 }
 
+md-toolbar{
+  min-height: 32px;
+}
+
 [layout=row] {
   flex-direction: row;
 }
